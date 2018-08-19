@@ -1,2 +1,7 @@
-# github-test-playground
-Just a playground to test some github features
+# Github test playground
+
+## Markdown Syntax
+
+**bold**  
+_italtic_  
+~~striked~~
