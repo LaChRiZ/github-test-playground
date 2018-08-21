@@ -5,10 +5,10 @@
 * [Headlines](#headlines)
 * [Text](#text)
 * [Lists](#lists)
-* [Links](#tables)
     + [Unordered list](#unordered-list)
     + [Ordered list](#ordered-list)
     + [Mixed list](#mixed-list)
+* [Links](#tables)
 * [Tables](#tables)
 
 ## Markdown Syntax
@@ -88,6 +88,7 @@ _italtic_
 * simple link <https://github.com>
 * link with different display text [Github](https://github.com)
 * link with display text and tooltip [Link to Github with tooltip](https://github.com "Thats the tooltip")
+* link to other [site](help.md)
 
 ### Tables
 
