@@ -105,3 +105,11 @@ Fruit | Color | Taste
 green apple | green | sour
 banana | yellow | sweed
 kiwi | green | sweed
+
+## Hidden links
+
+Checkout: [example link][link-key]
+
+<!-- comment -->
+
+[link-key]: https://github.com "Tooltip for github"
