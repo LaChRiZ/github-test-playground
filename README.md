@@ -83,12 +83,14 @@ _italtic_
 * simple link <https://github.com>
 * link with different display text [Github](https://github.com)
 * link with display text and tooltip [Link to Github with tooltip](https://github.com "Thats the tooltip")
+* link to [Help Page](help.md)
 ```
 
 * simple link <https://github.com>
 * link with different display text [Github](https://github.com)
 * link with display text and tooltip [Link to Github with tooltip](https://github.com "Thats the tooltip")
-* link to other [site](help.md)
+* link to [Help Page](help.md)
+* link by reference key [Github][github-website]
 
 ### Tables
 
@@ -106,10 +108,12 @@ green apple | green | sour
 banana | yellow | sweed
 kiwi | green | sweed
 
-## Hidden links
+## Comments
 
-Checkout: [example link][link-key]
+```markdown
+<!-- this is a hidden comment -->
+```
 
-<!-- comment -->
+<!-- hidden links - use reference key to create a link in your text -->
 
-[link-key]: https://github.com "Tooltip for github"
+[github-website]: https://github.com "Tooltip for github"
